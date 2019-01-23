@@ -32,7 +32,7 @@ function setupCodeEditor(text){
     });
     $('#cancel').click(function(){
       mp.trigger('yarp:cefTrigger', 'destroyBrowser', 'editor');
-      mp.trigger('yarp:cefTrigger', 'unbindToggleChat');
+      //mp.trigger('yarp:cefTrigger', 'unbindToggleChat');
     });
 
     $('#server').click(function(){
